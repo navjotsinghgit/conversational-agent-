@@ -1,10 +1,10 @@
-# 🎬 AutoStream Conversational AI Agent
+# AutoStream Conversational AI Agent
 
 A Conversational AI Agent for **AutoStream** — a fictional SaaS platform providing automated video editing tools for content creators. The agent handles greetings, answers product/pricing/policy questions via RAG, and captures high-intent leads through a guided multi-turn conversation.
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### 1. Prerequisites
 
@@ -65,11 +65,11 @@ You: john@example.com
 Agent: Perfect! Which creator platform are you primarily using?
 
 You: YouTube
-Agent: 🎉 You're all set, John! I've registered your interest ...
+Agent: You're all set, John! I've registered your interest ...
 
 # Console output:
 # ============================================================
-#   ✅  Lead captured successfully!
+#   Lead captured successfully!
 #   Name    : John Smith
 #   Email   : john@example.com
 #   Platform: YouTube
@@ -78,7 +78,7 @@ Agent: 🎉 You're all set, John! I've registered your interest ...
 
 ---
 
-## 🏗️ Architecture Explanation (~200 words)
+## Architecture Explanation (~200 words)
 
 ### Why LangGraph?
 
@@ -177,7 +177,7 @@ async def whatsapp_webhook(request: Request):
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 conversational-agent-/
@@ -197,7 +197,7 @@ conversational-agent-/
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---|---|
